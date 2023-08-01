@@ -1,0 +1,22 @@
+{
+    "sourceFile": "index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1690832159670,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1690840440259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,11 +7,11 @@\n     <title>Document</title>\n     <link rel=\"stylesheet\" href=\"style.css\">\n </head>\n <body>\n-    \n     <div id=\"quiz-container\">\n         <h1 class=\"title\">Quiz</h1>\n+        <div id=\"timer\"></div>\n         <div class=\"progress-bar\">\n             <div id=\"progress\" class=\"progress\"></div>\n         </div>\n         <h2 id=\"question\"></h2>\n@@ -22,9 +22,8 @@\n         </div>\n     </div>\n     <div id=\"result\" style=\"display: none;\">\n         <h2 id=\"score\"></h2>\n-        <button id=\"retry\" style=\"display: none;\">Try Again</button>\n     </div>\n     <script src=\"main.js\"></script>\n </body>\n </html>\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1690832159670,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Document</title>\n    <link rel=\"stylesheet\" href=\"style.css\">\n</head>\n<body>\n    \n    <div id=\"quiz-container\">\n        <h1 class=\"title\">Quiz</h1>\n        <div class=\"progress-bar\">\n            <div id=\"progress\" class=\"progress\"></div>\n        </div>\n        <h2 id=\"question\"></h2>\n        <div id=\"choices\"></div>\n        <div class=\"buttons\">\n            <button id=\"prev\">Previous</button>\n            <button id=\"next\">Next</button>\n        </div>\n    </div>\n    <div id=\"result\" style=\"display: none;\">\n        <h2 id=\"score\"></h2>\n        <button id=\"retry\" style=\"display: none;\">Try Again</button>\n    </div>\n    <script src=\"main.js\"></script>\n</body>\n</html>"
+        }
+    ]
+}
